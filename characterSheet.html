@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Character Sheet</title>
+</head>
+<body>
+    <div class="top_div">
+        <h1>This is your full character sheet</h1>
+    </div>
+    
+    <div class="mid_div" id="charSheet">
+        
+        <table>
+            <tr class="sheetAlignment">
+                <td >Your Class is: </td>
+                <td id="classes" class="boxBorder"></td>
+                    <!-- <p id="class"></p> -->
+            </tr>
+        <tr class="sheetAlignment"> 
+            <td> Your Race is: </td>
+            <td id="race" class="boxBorder"></td>
+        </tr>
+        </table>
+        <!-- <p>Your Stats Are: </p>
+        <p id="stats" class="boxborder2"></p> -->
+        <table>
+            <tr class="sheetAlignment">
+                <p>Your Stats Are: </p>
+                <td>Str: </td>
+                <td id="str" class="boxborder3"></td>
+                <td>Dex: </td>
+                <td id="dex" class="boxborder3"></td>
+                <td>Con: </td>
+                <td id="con" class="boxborder3"></td>
+                <td>Int: </td>
+                <td id="int" class="boxborder3"></td>
+                <td>Wis: </td>
+                <td id="wis" class="boxborder3"></td>
+                <td>Cha: </td>
+                <td id="cha" class="boxborder3"></td>
+            </tr>
+        </table>
+
+    </div>
+    <div id="imgDiv">
+        <img id="charClass" class="imgBorder" src="">
+        <img id="charRace" class="imgBorder" src="">
+        <p id="demo">Demo</p>
+    </div>
+    <button type="button" class="" id="btn" onclick="rollCharacter()">Roll Again</button>
+    
+    <script src="./js/main.js"></script>
+</body>
+</html>
