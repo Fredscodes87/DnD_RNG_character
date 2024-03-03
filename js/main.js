@@ -112,10 +112,10 @@ const rollStats = () => {
   //let statsRolled = [];
   for (let i = 0; i < 6; i++) {
     //setting the parameters of the random number
-    var rngStat = 1 + Math.floor(Math.random() * 20);
+    var rngStat = 1 + Math.floor(Math.random() * 16);
     //making sure the stat they get isn't below 10
     while (rngStat < 10) {
-      rngStat = 1 + Math.floor(Math.random() * 20);
+      rngStat = 1 + Math.floor(Math.random() * 16);
     }
     //inserting the stat
     stats.push(rngStat);
